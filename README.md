@@ -14,7 +14,7 @@
 * ULO2: Program 2D and 3D graphical applications using OpenGL embedded in a programming language (such as OpenGL in Java).
 
 ## Task Description
-Your task is to implement a 2D scene with a lunar or planetary surface (the planet Loonar) and a background starfield (Figure 1). A Lander floats over the scene, controlled by the keyboard.
+Your task is to implement a 2D scene with a lunar or planetary surface (the planet Loonar ;) and a background starfield (Figure 1). A Lander floats over the scene, controlled by the keyboard.
 
 <img alt = "Image of the completed scene" src = "ExampleImages/wholeproject.png" width="50%"> 
 
@@ -59,11 +59,13 @@ Create a moutain mesh. The basic shape should be wider at the bottom than at the
 Mountain colour should be set to a hue of your choice, with a randomly chosen saturation and brightness value ranging from 0% to 100% in HSB space.
 
 ### Loonar Surface (4%)
-Clear the background to a dark blue or inky black colour. Randomly position 500 mountains along the bottom of a 100x500 area of world units, as shown in Figure 4. You'll notice that in the figure not all the mountain peaks will stand out, and will actually merge together to create the surface of Loonar. Each mountain should be at least 3 world units wide at the base, and at least 2 world units tall. You should find a way to make these sizes random and yet not too jagged.
+Clear the background to a dark blue or inky black colour. Randomly position 500 mountains along the bottom of a 100x500 area of world units, as shown in Figure 4. Each mountain should be at least 3 world units wide at the base, and at least 2 world units tall. 
 
 <img src = "ExampleImages/surfacedetail1.png" alt = "Detail of multiple mountain meshes" width="20%">
 
 ### Loonar Surface - Distribution (4%)
+You'll notice that in the figure not all the mountain peaks will stand out, and will actually merge together to create the surface of Loonar. Adjust your surface drawing code to make thes sizes of the mountains random and yet ensuring that the surface of Loonar is not too jagged.
+
 Hint: pseudo random number generators (PRNG) are designed to create a normal (Gaussian) distribution, but some simple manipulation of the output of the standard Java PRNG can be used to skew the results to either the left or the right.
 
 <img src = "ExampleImages/loonarsurface.png" alt = "Image of a Loonar surface" width="80%">
